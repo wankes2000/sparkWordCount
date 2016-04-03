@@ -1,3 +1,7 @@
-# sparkWordCount
+# Spark Word Count
 
-Run in Docker container with docker run -d -t -p 8888:8888 prabeeshk/pyspark-notebook
+#### Launch docker PySpark Notebook container
+
+```
+docker run --name spark-notebook -d -t -p 8888:8888 prabeeshk/pyspark-notebook
+```
